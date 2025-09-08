@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) => {
       msg.innerHTML =
-        'Thank you! Your application was submitted. <a href="https://chat.whatsapp.com/GOQTAublmqW3nGYPpnSi0i" target="_blank">Click here to join our WhatsApp group</a>';
+        "Thank you for participating in my birthday giveaway! we will get back to you soon.";
       setTimeout(function () {
         msg.innerHTML = "";
       }, 10000);

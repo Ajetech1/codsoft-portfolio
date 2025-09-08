@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Giveaway Form</title>
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/birthday.css" />
+    <script
+      src="https://kit.fontawesome.com/38b421c4ae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>🎂 Birthday Giveaway 🎁</h2>
+      <p>Sponsored By <span style="color: #ff4b5c">AjetechITSolutions</span></p>
+
+      <!-- <img src="assets/img/cocorella.png" alt="" class="logo" /> -->
+
+      <form name="submit-to-google-sheet">
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="Name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        <!-- <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="Enter your email"
+            required
+          />
+        </div> -->
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="text"
+            id="phone"
+            name="Phone"
+            placeholder="This is where your giveaway will be sent to"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Your Location:</label>
+          <input
+            type="text"
+            id="location"
+            name="Location"
+            placeholder="E.g Lagos, Osun ,Ede"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="device"
+            >What is your preferred mobile network for the giveaway?</label
+          >
+          <select id="network" name="Network" required>
+            <option value="" disabled selected>Select one option</option>
+            <option value="MTN">MTN</option>
+            <option value="Airtel">Airtel</option>
+            <option value="Glo">Glo</option>
+            <option value="9mobile">9mobile</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="type">what type of giveaway would you like to win?</label>
+          <select id="type" name="Type" required>
+            <option value="" disabled selected>Select one option</option>
+            <option value="Data">Data</option>
+            <option value="Data-package">Data package</option>
+            <option value="Airtime">Airtime</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="device"
+            >Are you interested in participating in future giveaways?</label
+          >
+          <select id="future" name="Future" required>
+            <option value="" disabled selected>Select one option</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message"
+            >Please, kindly write anything you know about the celebrant</label
+          >
+          <textarea
+            id="message"
+            name="Message"
+            rows="4"
+            placeholder="This will enable you to win giveaway"
+            required
+          ></textarea>
+          <!-- Spinner and Submit Button -->
+          <div class="btn-container">
+            <button type="submit" class="btn btn2" id="submit-button">
+              Submit
+            </button>
+            <div class="spinner" id="spinner"></div>
+          </div>
+        </div>
+
+        <!-- <button type="submit">Submit Review</button> -->
+      </form>
+      <span id="msg"></span>
+      <div class="copyright">
+        Designed By <a href="index.html" class="link">AjetechITSolutions</a> ©
+        2025.
+      </div>
+    </div>
+
+    <script src="bootcamp.js"></script>
+  </body>
+</html>
