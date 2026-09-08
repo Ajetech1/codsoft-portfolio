@@ -1,5 +1,6 @@
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbw3Elro1lvmJqIaxahca_O3YBO5iaHf4mdY4daKQzlsAeBkDfkFqUjbvtAvcSDJjhgx/exec";
+  // "https://script.google.com/macros/s/AKfycbw3Elro1lvmJqIaxahca_O3YBO5iaHf4mdY4daKQzlsAeBkDfkFqUjbvtAvcSDJjhgx/exec";
+  "https://script.google.com/macros/s/AKfycbxyXemhFnMQ-qqxcvplgC8SrmbCbKZ4geSoP29JykrsOqPKllq1RZJwVXswpCATXLMDpg/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
 const spinner = document.getElementById("spinner");
